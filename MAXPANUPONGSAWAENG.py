@@ -508,7 +508,7 @@ def help1():
                   "╠❂͜͡☬➣ " + key + "Spamcall:「jumlahnya」\n" + \
                   "╠❂͜͡☬➣ " + key + "Spamcall\n" + \
                   "╠══════════════════╗" + "\n" + \
-                  "╠    BY: SELFBOT-BY:MAX" + "\n" + \
+                  "╠    BY: SELFBOT-BY:MAX " + "\n" + \
                   "╚══════════════════╝" 
     return helpMessage1
 
