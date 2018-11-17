@@ -1,4 +1,4 @@
-# แก้โดย SELFBOT-BY:MAX ติดต่อได้ที่เบอร์ 191
+# แก้โดย ติดต่อได้ที่เบอร์ 191
 # -*- coding: utf-8 -*-
 import LINEPY
 from LINEPY import *
@@ -54,35 +54,35 @@ k6.log("Auth Token : " + str(k6.authToken))
 channel6 = LineChannel(k6)
 k6.log("Channel Access Token : " + str(channel6.channelAccessToken))
 #==============================================================================#
-k7 = LineClient()
+#k7 = LineClient()
 #k7 = LineClient(authToken=' TOKEN MU CINTA')
-k7.log("Auth Token : " + str(k7.authToken))
-channel7 = LineChannel(k7)
-k7.log("Channel Access Token : " + str(channel7.channelAccessToken))
+#k7.log("Auth Token : " + str(k7.authToken))
+#channel7 = LineChannel(k7)
+#k7.log("Channel Access Token : " + str(channel7.channelAccessToken))
 #==============================================================================#
-k8 = LineClient()
+#k8 = LineClient()
 #k8 = LineClient(authToken=' TOKEN MU CINTA')
-k8.log("Auth Token : " + str(k8.authToken))
-channel8 = LineChannel(k8)
-k8.log("Channel Access Token : " + str(channel8.channelAccessToken))
+#k8.log("Auth Token : " + str(k8.authToken))
+#channel8 = LineChannel(k8)
+#k8.log("Channel Access Token : " + str(channel8.channelAccessToken))
 #==============================================================================#
-k9 = LineClient()
+#k9 = LineClient()
 #k9 = LineClient(authToken=' TOKEN MU CINTA')
-k9.log("Auth Token : " + str(k9.authToken))
-channel9 = LineChannel(k9)
-k9.log("Channel Access Token : " + str(channel9.channelAccessToken))
+#k9.log("Auth Token : " + str(k9.authToken))
+#channel9 = LineChannel(k9)
+#k9.log("Channel Access Token : " + str(channel9.channelAccessToken))
 #==============================================================================#
-k10 = LineClient()
+#k10 = LineClient()
 #k10 = LineClient(authToken=' TOKEN MU CINTA')
-k10.log("Auth Token : " + str(k10.authToken))
-channel10 = LineChannel(k10)
-k10.log("Channel Access Token : " + str(channel10.channelAccessToken))
+#k10.log("Auth Token : " + str(k10.authToken))
+#channel10 = LineChannel(k10)
+#k10.log("Channel Access Token : " + str(channel10.channelAccessToken))
 #==============================================================================#
-sw = LineClient()
+#sw = LineClient()
 #sw = LineClient(authToken=' TOKEN MU CINTA')
-sw.log("Auth Token : " + str(sw.authToken))
-channel = LineChannel(sw)
-sw.log("Channel Access Token : " + str(channel.channelAccessToken))
+#sw.log("Auth Token : " + str(sw.authToken))
+#channel = LineChannel(sw)
+#sw.log("Channel Access Token : " + str(channel.channelAccessToken))
 #==============================================================================#
 poll = LinePoll(boy)
 poll = LinePoll(k1)
@@ -91,10 +91,10 @@ poll = LinePoll(k3)
 poll = LinePoll(k4)
 poll = LinePoll(k5)
 poll = LinePoll(k6)
-poll = LinePoll(k7)
-poll = LinePoll(k8)
-poll = LinePoll(k9)
-poll = LinePoll(k10)
+#poll = LinePoll(k7)
+#poll = LinePoll(k8)
+#poll = LinePoll(k9)
+#poll = LinePoll(k10)
 call = boy
 creator = ["u83211e3b69096f869d545aed2d1724d3"]
 owner = ["u83211e3b69096f869d545aed2d1724d3"]
@@ -107,14 +107,14 @@ Cmid = k3.getProfile().mid
 Dmid = k4.getProfile().mid
 Emid = k5.getProfile().mid
 Fmid = k6.getProfile().mid
-Gmid = k7.getProfile().mid
-Hmid = k8.getProfile().mid
-Imid = k9.getProfile().mid
-Jmid = k10.getProfile().mid
-Zmid = sw.getProfile().mid
-KAC = [boy,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,sw]
-ABC = [boy,k1,k2,k3,k4,k5,k6,k7,k8,k9,k10,sw]
-Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid,Gmid,Hmid,Imid,Jmid,Zmid]
+#Gmid = k7.getProfile().mid
+#Hmid = k8.getProfile().mid
+#Imid = k9.getProfile().mid
+#Jmid = k10.getProfile().mid
+#Zmid = sw.getProfile().mid
+KAC = [boy,k1,k2,k3,k4,k5,k6]
+ABC = [boy,k1,k2,k3,k4,k5,k6]
+Bots = [mid,Amid,Bmid,Cmid,Dmid,Emid,Fmid]
 Aditmadzs = admin + staff + creator
 
 protectqr = []
@@ -150,11 +150,11 @@ responsename3 = k3.getProfile().displayName
 responsename4 = k4.getProfile().displayName
 responsename5 = k5.getProfile().displayName
 responsename6 = k6.getProfile().displayName
-responsename7 = k7.getProfile().displayName
-responsename8 = k8.getProfile().displayName
-responsename9 = k9.getProfile().displayName
-responsename10 = k10.getProfile().displayName
-responsename = sw.getProfile().displayName
+#responsename7 = k7.getProfile().displayName
+#responsename8 = k8.getProfile().displayName
+#responsename9 = k9.getProfile().displayName
+#responsename10 = k10.getProfile().displayName
+#responsename = sw.getProfile().displayName
 
 cctv = {
     "cyduk":{},
@@ -428,15 +428,15 @@ def help():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage = "╔═════════════════╗" + "\n" + \
-                  "╠  🤖 SELFBOT-BY:MAX 🤖" + "\n" + \
+                  "╠  🤖 SELFBOT-BY:MAI 🤖" + "\n" + \
                   "╚═════════════════╝" + "\n" + \
                   "╔═════════════════╗" + "\n" + \
                   "╠       🤖 MENU SELF 🤖" + "\n" + \
                   "╠═════════════════╝" + "\n" + \
-                  "╠❂͜͡☬➣ " + key + "Help 1\n" + \
-                  "╠❂͜͡☬➣ " + key + "Help 2\n" + \
-                  "╠❂͜͡☬➣ " + key + "Help 3\n" + \
-                  "╠❂͜͡☬➣ " + key + "Help 4\n" + \
+                  "╠❂͜͡☬➣ " + key + "H1\n" + \
+                  "╠❂͜͡☬➣ " + key + "H2\n" + \
+                  "╠❂͜͡☬➣ " + key + "H3\n" + \
+                  "╠❂͜͡☬➣ " + key + "H4\n" + \
                   "╠❂͜͡☬➣ " + key + "Me\n" + \
                   "╠❂͜͡☬➣ " + key + "Mid\n" + \
                   "╠❂͜͡☬➣ " + key + "Mid「@」\n" + \
@@ -479,7 +479,7 @@ def help():
                   "╠❂͜͡☬➣ " + key + "Mykey\n" + \
                   "╠❂͜͡☬➣ " + key + "Resetkey\n" + \
                   "╠══════════════════╗" + "\n" + \
-                  "╠    BY: SELFBOT-BY:MAX" + "\n" + \
+                  "╠    BY: SELFBOT-BY:MAI" + "\n" + \
                   "╚══════════════════╝" 
     return helpMessage
 
@@ -508,7 +508,7 @@ def help1():
                   "╠❂͜͡☬➣ " + key + "Spamcall:「jumlahnya」\n" + \
                   "╠❂͜͡☬➣ " + key + "Spamcall\n" + \
                   "╠══════════════════╗" + "\n" + \
-                  "╠    BY: SELFBOT-BY:MAX " + "\n" + \
+                  "╠    BY: SELFBOT-BY:MAI " + "\n" + \
                   "╚══════════════════╝" 
     return helpMessage1
 
@@ -563,7 +563,7 @@ def help2():
                   "╠❂͜͡☬➣ " + key + "Listprotect\n" + \
                   "╠❂͜͡☬➣ Ketik「 Refresh 」Jika Sudah\n╠❂͜͡☬➣ Menggunakan Command Diatas...\n" + \
                   "╠══════════════════╗" + "\n" + \
-                  "╠    BY: SELFBOT-BY:MAX" + "\n" + \
+                  "╠    BY: SELFBOT-BY:MAI" + "\n" + \
                   "╚══════════════════╝" 
     return helpMessage2
     
@@ -572,7 +572,7 @@ def helpbot():
     key = Setmain["keyCommand"]
     key = key.title()
     helpMessage3 = "╔══════════════════╗" + "\n" + \
-                  "╠  🤖 SELFBOT-BY:MAX 🤖" + "\n" + \
+                  "╠  🤖 SELFBOT-BY:MAI 🤖" + "\n" + \
                   "╚══════════════════╝" + "\n" + \
                   "╔══════════════════╗" + "\n" + \
                   "╠             🤖 BOT 🤖" + "\n" + \
@@ -629,14 +629,14 @@ def helpbot():
                   "╠❂͜͡☬➣ " + key + "Clearban\n" + \
                   "╠❂͜͡☬➣ " + key + "Refresh\n" + \
                   "╠══════════════════╗" + "\n" + \
-                  "╠    BY: SELFBOT-BY:MAX" + "\n" + \
+                  "╠    BY: SELFBOT-BY:MAI" + "\n" + \
                   "╚══════════════════╝"
     return helpMessage3
     
 def infomeme():
     helpMessage4 = """
 ╔══════════════════╗
-╠  🤖 SELFBOT-BY:MAX 🤖
+╠  🤖 SELFBOT-BY:MAI 🤖
 ╚══════════════════╝
 ╔══════════════════╗
 ╠    ◄]·✪·List Meme·✪·[►
@@ -670,7 +670,7 @@ def infomeme():
 ╠❂͜͡☬➣ contoh:
 ╠❂͜͡☬➣ Meme@buzz@lu tau?@gatau
 ╠══════════════════╗
-╠    BY: SELFBOT-BY:MAX
+╠    BY: SELFBOT-BY:MAI
 ╚══════════════════╝
 """
     return helpMessage4
@@ -695,10 +695,10 @@ def bot(op):
                 k4.leaveRoom(op.param1)  
                 k5.leaveRoom(op.param1)
                 k6.leaveRoom(op.param1)
-                k7.leaveRoom(op.param1)
-                k8.leaveRoom(op.param1)
-                k9.leaveRoom(op.param1)
-                k10.leaveRoom(op.param1)   
+                #k7.leaveRoom(op.param1)
+                #k8.leaveRoom(op.param1)
+                #k9.leaveRoom(op.param1)
+                #k10.leaveRoom(op.param1)   
         if op.type == 24:
             if wait['leaveRoom'] == True:
                 boy.leaveRoom(op.param1)
@@ -708,10 +708,10 @@ def bot(op):
                 k4.leaveRoom(op.param1)  
                 k5.leaveRoom(op.param1)
                 k6.leaveRoom(op.param1)
-                k7.leaveRoom(op.param1)
-                k8.leaveRoom(op.param1)
-                k9.leaveRoom(op.param1)
-                k10.leaveRoom(op.param1)        
+                #k7.leaveRoom(op.param1)
+                #k8.leaveRoom(op.param1)
+                #k9.leaveRoom(op.param1)
+                #k10.leaveRoom(op.param1)        
                 
         if op.type == 11:
             if op.param1 in protectqr:
